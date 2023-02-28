@@ -28,7 +28,7 @@ cd scMSI
 * Then, automatically install all used packages (described by "used_package.txt") for scMSI in a few mins.
 
 ```
-conda create -n scMSI python=3.8
+conda create -n scMSI python=3.9
 
 source activate
 
