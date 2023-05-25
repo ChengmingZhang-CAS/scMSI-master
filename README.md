@@ -1,5 +1,5 @@
 # Contrastively generative self-expression model for single-cell and spatial multimodal data
-![image](/Utilities/Main_figure_scMSI.tif)
+![image](/Utilities/scMSI_overview.jpg)
 
 Overview of scMSI model. scMSI is a deep variational autoencoder framework with a contrastive self-expressive layer, which integrates the multi-level omics data by learning the consistent sample affinity (Figure A, B). For illustrative purposes, we take CITE-seq data as an example, which allows paired measurements of RNA and surface proteins in a single cell. Suppose that $X^R∈R^(p^R×N)$ and $X^P∈R^(p^P×N)$ are represented as the matrices of RNA and protein unique molecular identifier (UMI) counts, where $p^R$ is the number of all detected genes, $p^P$ is the corresponding number of proteins, and N is the total number of cells. Categorical covariates s, such as experimental batch or donor, are optional inputs for integrating different datasets and are referred to as ‘batches’ in the text.
 scMSI consists of three modular neural networks as components:
