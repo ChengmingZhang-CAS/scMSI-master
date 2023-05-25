@@ -16,7 +16,7 @@ Installation was tested on Windows10 with Python 3.8.15 and torch 1.13.0 on a ma
 #### 1. Grab source code of scMSI
 
 ```
-git clone https://github.com/yiwen-yang/scMSI.git
+git clone https://github.com/ChengmingZhang-CAS/scMSI-master.git
 
 cd scMSI
 ```
